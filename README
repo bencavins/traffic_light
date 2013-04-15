@@ -1,0 +1,35 @@
+Traffic Light
+ECEN 2350
+Ben Cavins
+(benjamin.cavins@colorado.edu)
+
+============================================================
+    FILES
+============================================================
+
+  - TrafficLight.v
+  - Clock100and1.c
+  - SevenSegmentDisplay.v
+  - README
+
+============================================================
+    SETTING UP ON DE0
+============================================================
+
+    element: DE0 PIN
+
+  - ClkIn: 5MHz clock
+  - Resetn: Button2
+  - Sensor: Switch0
+  - ssd[0-3]: HEX[0-3] (seven-segment displays)
+
+============================================================
+    CONTROLS
+============================================================
+
+  HEX3 and HEX2 display the one-second counter, HEX1 
+  displays the current state, HEX0 displays the traffic 
+  light configuration. 
+
+  Switch0 controlls the farm road vehicle sensor, Button0 
+  resets the machine. 
